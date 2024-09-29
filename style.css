@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.list-style{
+    list-style-type: none;
+   
+}
+
+li {
+    width: 100%;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.todo {
+    width: 70%;
+    height: 100vh;
+    min-height: 1px;
+    background-color: rgb(182, 125, 235);   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo-text {
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgb(182, 125, 235);
+    border: none;
+    padding: 5px;
+    width: 50px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.container-add, .container-del {
+    width: 70%;
+    height: 50px;
+    background-color: rgb(243, 240, 237);
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 8px 0px rgba(34, 60, 80, 0.4);
+}
+
+.container-del {
+    height: auto;
+}
+
+.container-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-del-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#none {
+    display: none;
+}
